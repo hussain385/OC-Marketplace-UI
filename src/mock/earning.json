@@ -1,0 +1,104 @@
+{
+  "earnings": [
+    {
+      "id": 1,
+      "category": "Brekke and Sons",
+      "subcategory": "Harber Group",
+      "delivery_date": "5/27/2023",
+      "purchased_by": "Lind MacKessock",
+      "amount": 100.22,
+      "status": "released"
+    },
+    {
+      "id": 2,
+      "category": "Gleason Inc",
+      "subcategory": "Hauck, Bruen and McGlynn",
+      "delivery_date": "10/23/2022",
+      "purchased_by": "Horace Gamble",
+      "amount": 825.52,
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "category": "Conroy, Lakin and Wiegand",
+      "subcategory": "McGlynn, Bernier and Kohler",
+      "delivery_date": "8/26/2022",
+      "purchased_by": "Ignaz Hadleigh",
+      "amount": 400.11,
+      "status": "disputed"
+    },
+    {
+      "id": 4,
+      "category": "Cole-Renner",
+      "subcategory": "Weimann Inc",
+      "delivery_date": "9/18/2022",
+      "purchased_by": "Blondelle Hearnshaw",
+      "amount": 700.33,
+      "status": "voided"
+    }
+  ],
+  "invoice": [
+    {
+      "id": 1,
+      "date_issued": "10/23/2022",
+      "type": "Transaction fee",
+      "invoice_number": "EIV-OP-00000008",
+      "transaction_id": "OP-00000008",
+      "amount": 2.0
+    },
+    {
+      "id": 2,
+      "date_issued": "10/23/2022",
+      "type": "Widthdrawl fee",
+      "invoice_number": "EIV-OP-00000008",
+      "transaction_id": "OP-00000008",
+      "amount": 1.0
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": 1,
+      "requested_date": "10/23/2022",
+      "withdrawal_id": "OP-00000008",
+      "bank_account": "5710",
+      "requested_by": "Lind MacKessock",
+      "amount": 389.0,
+      "fee": 1.0,
+      "net": 388,
+      "status": "processing"
+    },
+    {
+      "id": 2,
+      "requested_date": "10/23/2022",
+      "withdrawal_id": "OP-00000008",
+      "bank_account": "5710",
+      "requested_by": "Lind MacKessock",
+      "amount": 389.0,
+      "fee": 1.0,
+      "net": 388,
+      "status": "requested"
+    },
+    {
+      "id": 3,
+      "requested_date": "10/23/2022",
+      "withdrawal_id": "OP-00000008",
+      "bank_account": "5710",
+      "requested_by": "Lind MacKessock",
+      "amount": 389.0,
+      "fee": 1.0,
+      "net": 388,
+      "status": "withdrawn"
+    },
+    {
+      "id": 4,
+      "requested_date": "10/23/2022",
+      "withdrawal_id": "OP-00000008",
+      "bank_account": "5710",
+      "requested_by": "Lind MacKessock",
+      "amount": 389.0,
+      "fee": 1.0,
+      "net": 388,
+      "status": "failed"
+    }
+  ]
+}

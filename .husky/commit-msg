@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# regex to validate in commit msg
+commit_regex='[a-z]+\-[0-9]+\s.+|merge\s.+'
+error_msg="Aborting commit. Your commit message should start with JIRA Issue e.g. 'OD-123 commit message'"
+
+if ! grep -iqE "$commit_regex" "$1"; then
+  echo "$error_msg" >&2
+  exit 1
+fi

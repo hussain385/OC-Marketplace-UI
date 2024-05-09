@@ -1,0 +1,38 @@
+.tags {
+  max-width: 680px;
+}
+
+.tags .tag {
+  display: inline-block;
+}
+
+.tags .tag::after {
+  content: '•';
+  margin: 0px 8px;
+}
+.tags .tag:last-child::after {
+  content: '';
+}
+
+svg.star.green path,
+.label-green {
+  fill: #66d19e;
+  color: #66d19e !important;
+}
+
+svg.star.yellow path,
+.label-yellow {
+  fill: #ffd954;
+  color: #ffd954 !important;
+}
+
+.height-overflow {
+  height: 20px;
+  overflow-y: hidden;
+}
+.rating-filter .menu-label {
+  color: #66d19e !important;
+}
+.rating-filter svg.menu-arrow path {
+  fill: #66d19e;
+}

@@ -1,0 +1,10 @@
+.Toastify__close-button {
+  opacity: 1;
+  align-self: center;
+  margin-bottom: 5px;
+}
+
+.Toastify__toast {
+  min-height: '10px !important';
+  background: blue;
+}

@@ -1,0 +1,24 @@
+.ripple1,
+.ripple2,
+.ripple3,
+.ripple4 {
+  background-color: white;
+  transition: background-color 1s ease-out 100ms;
+  cursor: pointer !important;
+}
+
+.ripple1:hover {
+  background-color: #ecf0fd;
+}
+
+.ripple2:hover {
+  background-color: #fff2f1;
+}
+
+.ripple3:hover {
+  background-color: #fffcf2;
+}
+
+.ripple4:hover {
+  background-color: #f4fdff;
+}

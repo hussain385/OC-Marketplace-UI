@@ -1,0 +1,81 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    //    "plugin:import/recommended",
+    //    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    //"plugin:@typescript-eslint/recommended-requiring-type-checking", //this will fix the unused variable error on interface, type and fucntion declaration
+    "prettier"
+  ],
+  "overrides": [
+    // For Api Type Safe
+    {
+      "files": ["src/**/*.api.ts", "src/**/*.api.tsx"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "warn"
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+    //"project": ["./tsconfig.json"]
+  },
+  "settings": {
+    "react": {
+      "version": "18.1.0 "
+    },
+    "import/resolver": {
+      "typescript": true
+    }
+  },
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-duplicate-imports": "error",
+    "no-console": "warn",
+    "no-trailing-spaces": [
+      "warn",
+      {
+        "skipBlankLines": true,
+        "ignoreComments": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
+    ],
+    "indent": ["warn", 2],
+    "@typescript-eslint/no-explicit-any": [
+      "warn",
+      {
+        "ignoreRestArgs": true
+      }
+    ],
+    "@typescript-eslint/no-var-requires": 0,
+    //"@typescript-eslint/no-unsafe-member-access": "warn",
+    //"@typescript-eslint/no-unsafe-argument": "warn",
+    //"@typescript-eslint/no-unsafe-return": "off",
+    //"@typescript-eslint/no-misused-promises": "off",
+    "no-useless-escape": "off"
+  }
+}

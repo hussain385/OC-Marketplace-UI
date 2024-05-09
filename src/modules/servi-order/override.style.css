@@ -1,0 +1,13 @@
+.requirement-list li::marker {
+  color: #000;
+  border-radius: 50%;
+  background: #2752e71a;
+}
+
+.requirement-seller-option-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: 2em;
+}

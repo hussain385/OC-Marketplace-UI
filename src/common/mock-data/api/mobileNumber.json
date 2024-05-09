@@ -1,0 +1,65 @@
+[
+  {
+    "country": "Afghanistan",
+    "countryCode": "AF",
+    "countryNumber": "+93",
+    "prefixes": ["70", "71", "72", "73", "74", "75", "24", "77", "78", "79"],
+    "length": ["9"]
+  },
+  {
+    "country": "Åland",
+    "countryCode": "AX",
+    "countryNumber": "+358",
+    "prefixes": ["4570", "4573", "4575"],
+    "length": ["8", "10"]
+  },
+  {
+    "country": "Albania",
+    "countryCode": "AL",
+    "countryNumber": "+355",
+    "prefixes": ["67", "68", "69"],
+    "length": []
+  },
+  {
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "countryNumber": "+213",
+    "prefixes": ["5", "6", "7"],
+    "length": ["9"]
+  },
+  {
+    "country": "American Samoa",
+    "countryCode": "",
+    "countryNumber": "+1",
+    "prefixes": ["684"],
+    "length": ["10"]
+  },
+  {
+    "country": "Andorra",
+    "countryCode": "",
+    "countryNumber": "+376",
+    "prefixes": ["3"],
+    "length": []
+  },
+  {
+    "country": "Angola",
+    "countryCode": "",
+    "countryNumber": "+244",
+    "prefixes": ["91", "92", "93"],
+    "length": []
+  },
+  {
+    "country": "Anguilla",
+    "countryCode": "",
+    "countryNumber": "+1",
+    "prefixes": ["264"],
+    "length": ["10"]
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "countryCode": "",
+    "countryNumber": "+1",
+    "prefixes": ["268"],
+    "length": ["10"]
+  }
+]

@@ -1,0 +1,31 @@
+.MuiInputAdornment-root {
+  height: 100% !important;
+  max-height: revert !important;
+}
+
+.css-folqtd-MuiTypography-root {
+  font-size: 14px !important;
+}
+
+.errorMessage {
+  color: #e11900;
+  font-size: 14px !important;
+  margin-top: 0.5em !important;
+}
+
+.Package {
+  width: 100%;
+  gap: 24px;
+  padding: 24px 24px 40px;
+  border-radius: 8px;
+  border: solid 1px #efeeee;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}

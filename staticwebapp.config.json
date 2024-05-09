@@ -1,0 +1,31 @@
+{
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT"
+  },
+  "mimeTypes": {
+    "custom": "text/html",
+    ".json": "text/json"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/img/*.{png,jpg,gif,webp}", "/css/*"]
+  },
+  "platform": {
+    "apiRuntime": "node:20"
+  },
+  "routes": [
+    {
+      "route": "http://api-ocm.southeastasia.cloudapp.azure.com:1337/api/users",
+      "methods": ["GET", "POST"]
+    },
+    {
+      "route": "https://victorious-moss-060770a00.1.azurestaticapps.net/users",
+      "methods": ["GET", "POST"]
+    },
+    {
+      "route": "/users",
+      "methods": ["GET"]
+    }
+  ]
+}

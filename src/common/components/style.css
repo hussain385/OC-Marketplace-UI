@@ -1,0 +1,25 @@
+.header {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  transition: top 1s;
+  z-index: 10;
+}
+
+.header.down {
+  top: 5em;
+}
+
+.header.up {
+  top: 0;
+  z-index: 0;
+}
+
+.headerBox {
+  width: 100%;
+  max-width: 78em;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}

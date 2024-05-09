@@ -1,0 +1,112 @@
+/* Quill css overrides */
+.ql-custom-editor {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  position: relative;
+  padding-bottom: 10px;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+  font-size: 14px;
+  font-family: 'Manrope' !important;
+  font-style: normal !important;
+}
+
+.ql-container {
+  font-family: 'Manrope' !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.ql-custom-editor .ql-toolbar.ql-snow,
+.ql-custom-editor .ql-container.ql-snow {
+  border: 0px;
+}
+.ql-custom-editor .ql-editor {
+  max-height: 100px;
+  margin-bottom: 20px;
+  max-width: calc(100vw - 510px);
+  word-wrap: break-word;
+}
+.ql-custom-editor .ql-editor::-webkit-scrollbar {
+  background-color: white;
+  width: 5px;
+}
+
+.ql-custom-editor .ql-editor::-webkit-scrollbar-thumb {
+  background-color: #eaeaea;
+}
+
+@media screen and (max-width: 481px) {
+  .ql-custom-editor .ql-toolbar {
+    /* display: none; */
+    font-size: 20px;
+  }
+
+  /*
+  .ql-custom-editor > .ql-container > .ql-editor.ql-blank::before {
+    padding-left: 20px;
+  }
+  */
+
+  .ql-custom-editor {
+    border: 1px solid transparent;
+  }
+}
+
+.hideToolbar {
+  display: none;
+}
+.showToolbar {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: -120px;
+  left: -1px;
+  padding: 5px;
+  border: 1px solid #eaeaea;
+  border-bottom: transparent;
+  background: #ffffff;
+  z-index: 99999999;
+}
+
+.overlap {
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 99999999;
+}
+.overlapse-document {
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 99999999;
+}
+
+.ql-picker-label[aria-controls='ql-picker-options-10'],
+.ql-picker-label[aria-controls='ql-picker-options-13'] {
+  display: none;
+}
+
+.ql-bold.ql-active svg path,
+.ql-italic.ql-active svg path,
+.ql-underline.ql-active svg path,
+.ql-list.ql-active svg path {
+  fill: black;
+}
+
+.ql-editor.ql-blank::before {
+  color: #7e7e7e;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .ql-custom-editor .ql-editor {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+}

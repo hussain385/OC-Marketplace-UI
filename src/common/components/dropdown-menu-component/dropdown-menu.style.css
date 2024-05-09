@@ -1,0 +1,12 @@
+.dropdown-button {
+  color: #1d2130 !important;
+  text-transform: inherit !important;
+}
+.dropdown-button.active,
+.dropdown-button.active .menu-label {
+  color: #2752e7 !important;
+}
+
+.dropdown-button.active {
+  background: #e9eefd !important;
+}

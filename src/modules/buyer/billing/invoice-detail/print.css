@@ -1,0 +1,24 @@
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+  .print-details {
+    max-width: 595px;
+    display: block !important;
+  }
+
+  @page {
+    size: 6.197917in 8.5in;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,74 @@
+ul {
+  margin: 5px 0 0;
+  padding: 0 0 0 24px;
+}
+
+li::marker {
+  color: #66d19e;
+}
+
+.width-38 {
+  width: 60%;
+}
+
+.shimmerClass {
+  border-radius: 100%;
+}
+
+.ShimmerSecondTextClass {
+  margin-top: 10px;
+}
+
+.ShimmerPriceTextClass {
+  margin-left: 7px;
+  margin-top: -4px;
+}
+
+.SellerInfoBox {
+  border: 1px solid #eaeaea;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.simpleText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mt-01 {
+  margin-top: 1em;
+}
+
+.mt-005 {
+  margin-top: 0.5em;
+}
+
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+  transform: none !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.avatar-shimmer {
+  border-radius: 100%;
+}
+
+.Package {
+  width: 100%;
+  gap: 24px;
+  padding: 24px 24px 40px;
+  border-radius: 8px;
+  border: solid 1px #efeeee;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+}

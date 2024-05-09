@@ -1,0 +1,32 @@
+.Rectangle-5310 {
+  width: 19em;
+  height: 10.125em;
+  flex-grow: 0;
+  margin: 24px 16px 0px 0px;
+  padding: 24px 24px 38px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.BoxText1 {
+  flex-grow: 0;
+  font-weight: 700 !important;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.BoxText2 {
+  font-size: 14px;
+  font-weight: 400 !important;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #7e7e7e;
+}
+
+.disabled-box {
+  cursor: default;
+  background-color: #f7f7f7;
+}

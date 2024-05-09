@@ -1,0 +1,4 @@
+{
+    "summary": "$System.DefinitionName is being deployed in $Release.EnvironmentName",
+    "text": "[$System.DefinitionName]($Release.ReleaseWebUrl) ($BRANCH_NAME) is being deployed in $Build.SourceBranchName by $Release.RequestedFor"
+}

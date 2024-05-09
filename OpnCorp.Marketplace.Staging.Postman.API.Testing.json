@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "36d5f1ce-b153-475a-907d-c3616ee99beb",
+		"name": "OpnCorp.Marketplace.Staging",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13733345"
+	},
+	"item": [
+		{
+			"name": "Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Kashif Makhdoom\",\r\n    \"email\" : \"kashif.makhdoom@leadingtech.com\",\r\n    \"mobile\" : \"+923332451199\",\r\n    \"password\": \"P@55w0rd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api-ocm.southeastasia.cloudapp.azure.com:1337/api/auth/local/register",
+					"protocol": "http",
+					"host": [
+						"api-ocm",
+						"southeastasia",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"auth",
+						"local",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"identifier\": \"kashif.makhdoom@leadingtech.com\", \r\n    \"password\": \"P@55w0rd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api-ocm.southeastasia.cloudapp.azure.com:1337/api/auth/local",
+					"protocol": "http",
+					"host": [
+						"api-ocm",
+						"southeastasia",
+						"cloudapp",
+						"azure",
+						"com"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"auth",
+						"local"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

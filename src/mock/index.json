@@ -1,0 +1,300 @@
+{
+  "notification": {
+    "payload": [
+      {
+        "id": 1,
+        "uid": "Uas2433w",
+        "username": "Sarah Doe",
+        "dateTime": "2022-09-23 14:37",
+        "shortMsg": "Hello World",
+        "status": "UNREAD",
+        "profilePicture": ""
+      },
+      {
+        "id": 2,
+        "uid": "Zx2dsf452",
+        "username": "John Doe",
+        "dateTime": "2022-09-21 16:37",
+        "shortMsg": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "status": "READ",
+        "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 3,
+        "uid": "Qzst2300efF",
+        "username": "Smith Doe",
+        "dateTime": "2022-09-21 16:37",
+        "shortMsg": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "status": "READ",
+        "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      },
+      {
+        "id": 4,
+        "uid": "RTz2342sfh",
+        "username": "Jennifer Doe",
+        "dateTime": "2022-09-22 18:00",
+        "shortMsg": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "status": "READ",
+        "profilePicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      }
+    ]
+  },
+  "companies": [
+    {
+      "id": 1,
+      "uid": "219f81e0-d3d3-494e-a36e-332d18afc66b",
+      "uen": "111111111J",
+      "name": "ABC MEDIA",
+      "logo": {
+        "url": "https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=658&q=80"
+      },
+      "about": "Finance Service",
+      "messages": [
+        {
+          "id": 1,
+          "uid": "219f81e0-d3d3-494e-a36e-332d18afc56b",
+          "date_time": "2022-09-26 16:04",
+          "message": "Hello John Doe",
+          "status": "UNREAD",
+          "attachment": "",
+          "user": {
+            "id": 1,
+            "username": "abc",
+            "name": "John Doe",
+            "email": "john.doe@yopmail.com",
+            "status": "ONLINE"
+          }
+        },
+        {
+          "id": 2,
+          "uid": "219f81e0-d3d3-494e-a36e-3452d18afc56b",
+          "date_time": "2022-09-26 16:04",
+          "message": "Hello John Doe",
+          "status": "READ",
+          "attachment": "",
+          "user": {
+            "id": 1,
+            "username": "abc",
+            "name": "John Doe",
+            "email": "john.doe@yopmail.com",
+            "status": "ONLINE"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "uid": "219f81e0-d3d3-494e-a36e-332d18afc66b",
+      "uen": "111111111J",
+      "name": "ABC MEDIA",
+      "logo": {
+        "url": "https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=658&q=80"
+      },
+      "about": "Finance Service",
+      "messages": [
+        {
+          "id": 1,
+          "uid": "219f81e0-d3d3-494e-a36e-332d18afc56b",
+          "date_time": "2022-09-26 16:04",
+          "message": "Hello John Doe",
+          "status": "UNREAD",
+          "attachment": "",
+          "user": {
+            "id": 1,
+            "username": "abc",
+            "name": "John Doe",
+            "email": "john.doe@yopmail.com",
+            "status": "ONLINE"
+          }
+        },
+        {
+          "id": 2,
+          "uid": "219f81e0-d3d3-494e-a36e-3452d18afc56b",
+          "date_time": "2022-09-26 16:04",
+          "message": "Hello John Doe",
+          "status": "READ",
+          "attachment": "",
+          "user": {
+            "id": 1,
+            "username": "abc",
+            "name": "John Doe",
+            "email": "john.doe@yopmail.com",
+            "status": "ONLINE"
+          }
+        }
+      ]
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "uid": "219f81e0-d3d3-494e-a36e-332d18afc56b",
+      "message": "Hello John Doe",
+      "attachment": null,
+      "date_time": "2022-09-26 16:04",
+      "status": "READ",
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "picture": null,
+        "email": "john.doe@yopmail.com",
+        "status": "ONLINE"
+      }
+    },
+    {
+      "id": 2,
+      "uid": "219f81e0-d3d3-494e-a36e-332d18afc5624",
+      "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "attachment": null,
+      "date_time": "2022-09-26 16:04",
+      "status": "READ",
+      "user": {
+        "id": 2,
+        "name": "Jane Doe",
+        "picture": null,
+        "email": "jane.doe@yopmail.com",
+        "status": "ONLINE"
+      }
+    },
+    {
+      "id": 3,
+      "uid": "219f81e0-d3d3-494e-a36e-332d18afc5624",
+      "message": "See the document.",
+      "attachment": "http://www.cdn.com/get/ABC-HR-Services.pdf",
+      "date_time": "2022-09-26 16:04",
+      "status": "READ",
+      "user": {
+        "id": 2,
+        "name": "Jane Doe",
+        "picture": null,
+        "email": "jane.doe@yopmail.com",
+        "status": "ONLINE"
+      }
+    }
+  ],
+  "attachments": {
+    "channel_id": 1,
+    "files": [
+      {
+        "id": 1,
+        "sender_name": "John Doe",
+        "url": "http://www.cdn.com/files/abc-serices.pdf",
+        "size": "2Mb",
+        "date_time": "2022-09-26 16:04"
+      },
+      {
+        "id": 2,
+        "sender_name": "Sarah Doe",
+        "url": "https://images.unsplash.com/photo-1542559272-819e1934ac51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "size": "5Mb",
+        "date_time": "2022-09-20 16:04"
+      }
+    ]
+  },
+  "timeline": {
+    "company": {
+      "id": 1,
+      "uen": "111111111J",
+      "uid": "219f81e0-d3d3-494e-a36e-332d18afc5624",
+      "name": "ABC MEDIA",
+      "about": "Finance Service",
+      "category": "Finance",
+      "logo": {
+        "url": "https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=658&q=80"
+      },
+      "timeline": [
+        {
+          "id": 1,
+          "service": "Taxation",
+          "status": "STARTED",
+          "date_time": "2022-09-20 16:04"
+        },
+        {
+          "id": 2,
+          "service": "Taxation",
+          "status": "COMPLETED",
+          "date_time": "2022-09-20 16:04"
+        },
+        {
+          "id": 3,
+          "service": "Taxation",
+          "status": "DELIVERED",
+          "date_time": "2022-09-20 16:04"
+        }
+      ]
+    }
+  },
+  "rooms": {
+    "response": {
+      "success": true,
+      "message": "success",
+      "data": {
+        "rooms": [
+          {
+            "id": 2,
+            "uid": "7f7a5105-ff91-4c6b-bced-b2adb94a8b9f",
+            "metadata": null,
+            "createdAt": "2022-10-12T05:10:32.019Z",
+            "updatedAt": "2022-10-12T05:10:32.019Z",
+            "users": [
+              {
+                "id": 669,
+                "name": "Waqas Buyer"
+              },
+              {
+                "id": 753,
+                "name": "Waqas Karim Seller"
+              }
+            ],
+            "companies": [
+              {
+                "id": 600,
+                "name": "ABC MEDIA",
+                "logo": {
+                  "id": 2751,
+                  "name": "company-logo@0c6e3823-8f26-4a71-b963-04ea26b1263f.jpg",
+                  "url": "/uploads/company_logo_0c6e3823_8f26_4a71_b963_04ea26b1263f_98063bdfd7.jpg",
+                  "provider": "local",
+                  "width": 640,
+                  "height": 853
+                }
+              }
+            ],
+            "service": {
+              "id": 144,
+              "uid": "bd048b66-0f99-4335-8386-0be5963f55dc",
+              "createdAt": null,
+              "updatedAt": "2022-10-12T09:32:19.091Z",
+              "publishedAt": "2022-10-12T05:07:32.361Z",
+              "metadata": null,
+              "description": "Lipsum lorem lipsum lorem",
+              "required_information": "",
+              "name": "Accounting Service",
+              "company": {
+                "id": 600
+              },
+              "category": {
+                "id": 2,
+                "title": "Finance",
+                "type": "CATG",
+                "code": null,
+                "description": "Finance",
+                "active": true
+              },
+              "subcategory": {
+                "id": 14,
+                "title": "Tax consulting",
+                "type": "SCATG",
+                "code": null,
+                "description": null,
+                "active": true
+              }
+            },
+            "unread": 0
+          }
+        ]
+      },
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.requirementCard {
+  padding: 1.5em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.requirementCard > .MuiTypography-root {
+  word-break: break-word;
+}
+
+.requirementCard:hover {
+  background-color: rgba(39, 82, 231, 0.2);
+}
